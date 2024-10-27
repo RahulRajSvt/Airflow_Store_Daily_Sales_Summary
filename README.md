@@ -1,4 +1,4 @@
-# Adbhut Project Documentation
+# AirFlow Store Sales Daily Summary Project Documentation
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -18,7 +18,7 @@
 - [Conclusion](#conclusion)
 
 ## Project Overview
-The Adbhut project is dedicated to enhancing the operational efficiency of an online store. It automates critical processes such as data management, report generation, and database interactions. By streamlining these tasks, we ensure that the store can focus on delivering an excellent customer experience.
+The AirFlow Store Sales Daily Summary Project is dedicated to enhancing the operational efficiency of an online store. It automates critical processes such as data management, report generation, and database interactions. By streamlining these tasks, we ensure that the store can focus on delivering an excellent customer experience.
 
 ## Technologies Used
 This project utilizes several key technologies:
@@ -27,7 +27,7 @@ This project utilizes several key technologies:
 - **MySQL**: A robust relational database management system that stores and manages data related to store transactions and analytics.
 
 ## Architecture
-The Adbhut project is built on a modular architecture, comprising three main components:
+The AirFlow Store Sales Daily Summary Project is built on a modular architecture, comprising three main components:
 - **Docker Containers**: Each component of the system (Airflow and MySQL) operates within its own container, ensuring isolation and reliability.
 - **Airflow**: Manages and automates workflows, ensuring tasks are executed in a timely and organized manner.
 - **MySQL**: Serves as the backbone for data storage, holding essential information about transactions, profits, and other metrics.
@@ -78,6 +78,12 @@ The database is structured to effectively manage various types of data, includin
 - **Cleaned Data**: Contains data that has been processed and cleaned for analysis.
 - **Profit Reports**: Holds the calculated results of profits, enabling quick access to important financial metrics.
 
+## Email Notification Visualization
+Below is the visual representation of the email notification sent to the store owner, summarizing the day's transactions:
+
+![Email Notification](mail_img.png)  <!-- Replace 'email_notification.png' with your actual image filename if it's different -->
+
+
 ## Data Management
 The project employs a systematic approach to data management, ensuring that data is collected, processed, stored, and reported efficiently. Automated checks are in place to confirm the availability and integrity of necessary files, reducing the risk of errors.
 
@@ -85,4 +91,4 @@ The project employs a systematic approach to data management, ensuring that data
 To keep stakeholders informed, the project incorporates a notification system that sends daily email reports to the store owner. This feature allows for real-time insights into the store’s performance, facilitating timely decision-making.
 
 ## Conclusion
-The Adbhut project leverages modern technologies to streamline the management of an online store. By automating data processing and reporting, it enhances operational efficiency and provides valuable insights, enabling the store to thrive in a competitive marketplace.
+The AirFlow Store Sales Daily Summary Project leverages modern technologies to streamline the management of an online store. By automating data processing and reporting, it enhances operational efficiency and provides valuable insights, enabling the store to thrive in a competitive marketplace.
