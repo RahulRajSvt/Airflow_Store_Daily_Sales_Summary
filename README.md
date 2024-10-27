@@ -31,6 +31,11 @@ The Adbhut project is built on a modular architecture, comprising three main com
 - **Docker Containers**: Each component of the system (Airflow and MySQL) operates within its own container, ensuring isolation and reliability.
 - **Airflow**: Manages and automates workflows, ensuring tasks are executed in a timely and organized manner.
 - **MySQL**: Serves as the backbone for data storage, holding essential information about transactions, profits, and other metrics.
+- 
+## Airflow Tasks Visualization
+Below is the visual representation of the tasks in the Adbhut project's Airflow workflow:
+
+![Airflow DAG](airflow_task.png)  <!-- Update the filename as necessary -->
 
 ## Setup Instructions
 
